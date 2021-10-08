@@ -475,7 +475,7 @@ The `call` operator, believe it or not, is a latest addition as I was perfectly 
 
     'StartsWith' bind v'start' apply v'key'
 
-Note that `bind` can't bind the last argument, and that `call` can only be used when exactly one argument is missing.
+Note that `bind` can't bind the last argument, and that `apply` can only be used when exactly one argument is missing.
 
 To implement `call`, I first introduced the *comma* operator `,` as follows:
 
